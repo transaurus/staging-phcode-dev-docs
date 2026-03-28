@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Phoenix Code Docs Blog</title>
+        <link>https://docs.phcode.dev/zh-Hans/blog</link>
+        <description>Phoenix Code Docs Blog</description>
+        <lastBuildDate>Wed, 04 Mar 2026 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-Hans</language>
+        <item>
+            <title><![CDATA[Brackets Editor in 2026: Phoenix Code Picks Up Where It Left Off]]></title>
+            <link>https://docs.phcode.dev/zh-Hans/blog/brackets-editor-phoenix-code</link>
+            <guid>https://docs.phcode.dev/zh-Hans/blog/brackets-editor-phoenix-code</guid>
+            <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Brackets editor is in maintenance mode — Phoenix Code continues where it left off. Same team, same live preview DNA, rebuilt for 2026. Free and open source.]]></description>
+            <content:encoded><![CDATA[<p>If you've used Brackets, Phoenix Code will feel immediately familiar.</p>
+<p>Built by the same team behind Brackets, Phoenix Code keeps Live Preview and fast visual front-end development at its core — now rebuilt on a modern foundation.</p>
+<p>Phoenix Code isn’t a tribute or a spiritual successor. It’s the natural continuation of the ideas that started with Brackets.</p>
+<p>Here’s what’s changed — and how to switch.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="brackets-vs-phoenix-code-whats-new">Brackets vs Phoenix Code: What's New<a href="https://docs.phcode.dev/zh-Hans/blog/brackets-editor-phoenix-code#brackets-vs-phoenix-code-whats-new" class="hash-link" aria-label="Direct link to Brackets vs Phoenix Code: What's New" title="Direct link to Brackets vs Phoenix Code: What's New" translate="no">​</a></h2>
+<p>Phoenix Code includes everything Brackets offered — Live Preview, lightweight workflow, web-first focus — plus built-in Git, a browser edition, visual CSS editing, and an active extension marketplace. Here's the full comparison.</p>
+<table><thead><tr><th>Feature</th><th>Brackets</th><th>Phoenix Code</th></tr></thead><tbody><tr><td>Live Preview</td><td>Basic (view only)</td><td>Full live preview (editing in preview with <a class="" href="https://docs.phcode.dev/zh-Hans/docs/Pro%20Features/live-preview-edit">Pro</a>)</td></tr><tr><td>Visual Editing</td><td>Limited</td><td>Color pickers, number dials, gradient editors, drag-and-drop</td></tr><tr><td>Git Integration</td><td>Required third-party extension</td><td>Built-in</td></tr><tr><td>Browser Version</td><td>No</td><td>Yes — <a href="https://phcode.dev/" target="_blank" rel="noopener noreferrer" class="">phcode.dev</a>, no install needed</td></tr><tr><td>Chromebook / Tablet Support</td><td>No</td><td>Yes</td></tr><tr><td>Extension Marketplace</td><td>No longer maintained</td><td>Active and growing</td></tr><tr><td>Active Development</td><td>In maintenance mode since 2021</td><td>Regular releases, active team</td></tr><tr><td>Open Source</td><td>Yes</td><td>Yes (AGPL-3.0)</td></tr><tr><td>Built-in Image Library</td><td>No</td><td>Yes — stock photos you can drag into projects</td></tr><tr><td>Price</td><td>Free</td><td>Free (<a href="https://phcode.dev/pricing" target="_blank" rel="noopener noreferrer" class="">Pro</a> from $9/mo for Live Preview Edit)</td></tr></tbody></table>
+<p>The free version of Phoenix Code covers everything Brackets did and more — Git, the browser edition, visual editing tools, all included. <a class="" href="https://docs.phcode.dev/zh-Hans/docs/Pro%20Features/live-preview-edit">Phoenix Pro</a> adds Live Preview Edit, and exists to help sustain full-time development by a small indie team.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-happened-to-the-brackets-editor">What Happened to the Brackets Editor?<a href="https://docs.phcode.dev/zh-Hans/blog/brackets-editor-phoenix-code#what-happened-to-the-brackets-editor" class="hash-link" aria-label="Direct link to What Happened to the Brackets Editor?" title="Direct link to What Happened to the Brackets Editor?" translate="no">​</a></h2>
+<p>Brackets was created at Adobe and built on CEF (Chromium Embedded Framework) — a technology choice that made sense in 2014 but became increasingly difficult to maintain. Security patches, OS compatibility, performance work — it all got harder every year. In 2021, we took over Brackets from Adobe, continuing its development under the community we founded and now lead.</p>
+<p>Rather than keep patching an aging foundation, we modernized the platform so it can run anywhere — in browsers, on desktop with Electron or Tauri, pretty much any modern system. One codebase that works everywhere, from <a href="https://phcode.dev/" target="_blank" rel="noopener noreferrer" class="">phcode.dev</a> in your browser to a native desktop app.</p>
+<p>The architecture changed. The team didn't. The design philosophy didn't. We named it Phoenix Code — Brackets, reborn.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-carried-over-from-brackets">What Carried Over from Brackets<a href="https://docs.phcode.dev/zh-Hans/blog/brackets-editor-phoenix-code#what-carried-over-from-brackets" class="hash-link" aria-label="Direct link to What Carried Over from Brackets" title="Direct link to What Carried Over from Brackets" translate="no">​</a></h2>
+<p>If you're wondering whether Phoenix Code will feel familiar — it will.</p>
+<p><strong>Live Preview</strong> is still the core of the experience. Edit HTML or CSS and watch the browser update in real time, no manual refresh. This is the feature that defined Brackets, and it's still front and center.</p>
+<p><strong>The lightweight workflow</strong> is intact. Open a folder, start editing. Everything just works out of the box.</p>
+<p><strong>Web-first focus.</strong> HTML, CSS, JavaScript — that's the sweet spot. Phoenix Code is purpose-built for front-end work, not trying to be a general-purpose IDE.</p>
+<p><strong>Keyboard shortcuts and UI layout</strong> are familiar. If you had muscle memory in Brackets, most of it still applies.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-new-in-phoenix-code">What's New in Phoenix Code<a href="https://docs.phcode.dev/zh-Hans/blog/brackets-editor-phoenix-code#whats-new-in-phoenix-code" class="hash-link" aria-label="Direct link to What's New in Phoenix Code" title="Direct link to What's New in Phoenix Code" translate="no">​</a></h2>
+<p>These are the features the Brackets community asked for — and we finally built them.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="edit-directly-in-the-live-preview-pro">Edit Directly in the Live Preview (Pro)<a href="https://docs.phcode.dev/zh-Hans/blog/brackets-editor-phoenix-code#edit-directly-in-the-live-preview-pro" class="hash-link" aria-label="Direct link to Edit Directly in the Live Preview (Pro)" title="Direct link to Edit Directly in the Live Preview (Pro)" translate="no">​</a></h3>
+<p>Brackets' live preview was view-only. You could see changes reflected in real time, but you always had to make edits in the code. With <a class="" href="https://docs.phcode.dev/zh-Hans/docs/Pro%20Features/live-preview-edit">Phoenix Pro</a>, you can click on any element in the live preview and edit it right there — change text, swap images by dragging, rearrange elements visually. The source code updates automatically.</p>
+<p><img decoding="async" loading="lazy" alt="Phoenix Code live preview modes for editing HTML and CSS visually" src="https://docs.phcode.dev/zh-Hans/assets/images/lp-mode-06e95d4c24bd3f96740ce30506206dbd.png" width="660" height="341" class="img_ev3q"></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="visual-css-editing">Visual CSS Editing<a href="https://docs.phcode.dev/zh-Hans/blog/brackets-editor-phoenix-code#visual-css-editing" class="hash-link" aria-label="Direct link to Visual CSS Editing" title="Direct link to Visual CSS Editing" translate="no">​</a></h3>
+<p>Brackets had inline color pickers — Phoenix Code keeps those and adds number dials you can scrub to adjust CSS values like margins, padding, font sizes, and more. Hover over a number, drag to adjust, and see the result update in live preview instantly.</p>
+<p><img decoding="async" loading="lazy" alt="Phoenix Code CSS number dial for adjusting margins and padding" src="https://docs.phcode.dev/zh-Hans/assets/images/number-dial-a65a9e9c4dde31e902c401a5d20b3e3e.gif" width="863" height="408" class="img_ev3q"></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="built-in-git">Built-in Git<a href="https://docs.phcode.dev/zh-Hans/blog/brackets-editor-phoenix-code#built-in-git" class="hash-link" aria-label="Direct link to Built-in Git" title="Direct link to Built-in Git" translate="no">​</a></h3>
+<p>Phoenix Code ships with native Git support based on the familiar Brackets Git extension, addressing many of its earlier limitations with a simpler UX and improved reliability. Commit, push, pull, diff, and branch management, all built in.</p>
+<p><img decoding="async" loading="lazy" alt="Built-in Git integration in Phoenix Code — commit and push" src="https://docs.phcode.dev/zh-Hans/assets/images/git-commit-cadf7ef1960a86877135ff05f7ee5165.png" width="1520" height="315" class="img_ev3q"></p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="runs-in-your-browser">Runs in Your Browser<a href="https://docs.phcode.dev/zh-Hans/blog/brackets-editor-phoenix-code#runs-in-your-browser" class="hash-link" aria-label="Direct link to Runs in Your Browser" title="Direct link to Runs in Your Browser" translate="no">​</a></h3>
+<p>Open <a href="https://phcode.dev/" target="_blank" rel="noopener noreferrer" class="">phcode.dev</a> and start editing — no install or admin privileges needed. Works on Chromebooks, tablets, shared computers, anywhere you have a browser. The web app runs the same core as the desktop app, so for website editing and live preview it's just as capable. For Git, AI features, and the full experience, grab the <a href="https://phcode.dev/download" target="_blank" rel="noopener noreferrer" class="">native app</a>.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="measurement-and-inspection-tools">Measurement and Inspection Tools<a href="https://docs.phcode.dev/zh-Hans/blog/brackets-editor-phoenix-code#measurement-and-inspection-tools" class="hash-link" aria-label="Direct link to Measurement and Inspection Tools" title="Direct link to Measurement and Inspection Tools" translate="no">​</a></h3>
+<p>Inspect spacing between elements, measure distances, and check alignment directly in the live preview. If you work from design mockups, this replaces the constant back-and-forth between your editor and a separate design tool.</p>
+<p><img decoding="async" loading="lazy" alt="Phoenix Code measurement and inspection tools in live preview" src="https://docs.phcode.dev/zh-Hans/assets/images/measurements-e6f18672c37e19dbae24def0118a8eeb.png" width="1066" height="920" class="img_ev3q"></p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-to-switch-from-brackets">How to Switch from Brackets<a href="https://docs.phcode.dev/zh-Hans/blog/brackets-editor-phoenix-code#how-to-switch-from-brackets" class="hash-link" aria-label="Direct link to How to Switch from Brackets" title="Direct link to How to Switch from Brackets" translate="no">​</a></h2>
+<p>Short version: open your project folder in Phoenix Code. That's it.</p>
+<p><strong>No migration needed.</strong> Your project files work as-is. No config conversion, no import wizard. Just open the folder.</p>
+<p><strong>Extensions.</strong> The most popular Brackets extensions are now built into Phoenix Code: Emmet for abbreviations, Git for version control, <a class="" href="https://docs.phcode.dev/zh-Hans/docs/Features/beautify-code">Beautify/Prettier</a> for code formatting, and a Tab Bar for managing open files. The extension marketplace is active and growing for anything else you need.</p>
+<p><strong>Learning curve.</strong> Minimal. The UI layout is familiar, the shortcuts are similar, and all the new features are additive — nothing you relied on was removed. You'll be productive in minutes.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="frequently-asked-questions">Frequently Asked Questions<a href="https://docs.phcode.dev/zh-Hans/blog/brackets-editor-phoenix-code#frequently-asked-questions" class="hash-link" aria-label="Direct link to Frequently Asked Questions" title="Direct link to Frequently Asked Questions" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-happened-to-the-brackets-code-editor">What happened to the Brackets code editor?<a href="https://docs.phcode.dev/zh-Hans/blog/brackets-editor-phoenix-code#what-happened-to-the-brackets-code-editor" class="hash-link" aria-label="Direct link to What happened to the Brackets code editor?" title="Direct link to What happened to the Brackets code editor?" translate="no">​</a></h3>
+<p>Brackets was created at Adobe and actively developed until 2021. The Phoenix Code project took over the development of Brackets, and rather than keep patching an aging foundation, we rebuilt it to run in browsers and as a desktop app. Brackets, reborn.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="is-phoenix-code-the-same-as-brackets">Is Phoenix Code the same as Brackets?<a href="https://docs.phcode.dev/zh-Hans/blog/brackets-editor-phoenix-code#is-phoenix-code-the-same-as-brackets" class="hash-link" aria-label="Direct link to Is Phoenix Code the same as Brackets?" title="Direct link to Is Phoenix Code the same as Brackets?" translate="no">​</a></h3>
+<p>Phoenix Code is built by the same team and carries forward the same design philosophy — Live Preview, lightweight workflow, and a focus on HTML, CSS, and JavaScript. The codebase was rewritten on modern web technologies, but the experience is familiar. If you used Brackets, you'll feel at home.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="is-phoenix-code-free">Is Phoenix Code free?<a href="https://docs.phcode.dev/zh-Hans/blog/brackets-editor-phoenix-code#is-phoenix-code-free" class="hash-link" aria-label="Direct link to Is Phoenix Code free?" title="Direct link to Is Phoenix Code free?" translate="no">​</a></h3>
+<p>Yes. The free version includes everything Brackets had and more — Git, the browser edition, visual editing tools, and the extension marketplace. <a class="" href="https://docs.phcode.dev/zh-Hans/docs/Pro%20Features/live-preview-edit">Phoenix Pro</a> adds Live Preview Edit starting at $9/month and helps sustain full-time development.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="is-brackets-still-safe-to-use">Is Brackets still safe to use?<a href="https://docs.phcode.dev/zh-Hans/blog/brackets-editor-phoenix-code#is-brackets-still-safe-to-use" class="hash-link" aria-label="Direct link to Is Brackets still safe to use?" title="Direct link to Is Brackets still safe to use?" translate="no">​</a></h3>
+<p>Brackets runs on an outdated version of Chromium that no longer receives security patches. For active web development, Phoenix Code is the maintained alternative with regular updates and security fixes.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="does-phoenix-code-work-on-chromebook">Does Phoenix Code work on Chromebook?<a href="https://docs.phcode.dev/zh-Hans/blog/brackets-editor-phoenix-code#does-phoenix-code-work-on-chromebook" class="hash-link" aria-label="Direct link to Does Phoenix Code work on Chromebook?" title="Direct link to Does Phoenix Code work on Chromebook?" translate="no">​</a></h3>
+<p>Yes. Open <a href="https://phcode.dev/" target="_blank" rel="noopener noreferrer" class="">phcode.dev</a> in any browser — no install or admin privileges needed. It works on Chromebooks, tablets, and shared computers.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="try-phoenix-code">Try Phoenix Code<a href="https://docs.phcode.dev/zh-Hans/blog/brackets-editor-phoenix-code#try-phoenix-code" class="hash-link" aria-label="Direct link to Try Phoenix Code" title="Direct link to Try Phoenix Code" translate="no">​</a></h2>
+<p>Phoenix Code was built for the Brackets community by the team behind Brackets.
+If you've been waiting for the update Brackets deserved, this is it.</p>
+<ul>
+<li class=""><strong><a href="https://phcode.dev/" target="_blank" rel="noopener noreferrer" class="">Open Phoenix Code in your browser</a></strong> — no install, start immediately</li>
+<li class=""><a href="https://phcode.dev/download" target="_blank" rel="noopener noreferrer" class="">Download the desktop app</a></li>
+<li class=""><a class="" href="https://docs.phcode.dev/zh-Hans/docs/Features/Live%20Preview/live-preview">Live Preview documentation</a></li>
+<li class=""><a class="" href="https://docs.phcode.dev/zh-Hans/docs/Pro%20Features/live-preview-edit">Edit Mode (Pro)</a></li>
+<li class=""><a class="" href="https://docs.phcode.dev/zh-Hans/blog/Blog-Legacy">Read more about the Brackets legacy</a></li>
+</ul>]]></content:encoded>
+            <category>Brackets</category>
+            <category>Comparison</category>
+            <category>Migration</category>
+            <category>Code Editor</category>
+            <category>Live Preview</category>
+            <category>Open Source</category>
+        </item>
+        <item>
+            <title><![CDATA[Phoenix Pro Release (January-2026, V-5.0) is now Live]]></title>
+            <link>https://docs.phcode.dev/zh-Hans/blog/release-5.0</link>
+            <guid>https://docs.phcode.dev/zh-Hans/blog/release-5.0</guid>
+            <pubDate>Sun, 18 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Phoenix Code 5.0 introduces Phoenix Pro with Live Preview Edit, Emmet support, Tab Bar, and Custom Snippets. The biggest update yet.]]></description>
+            <content:encoded><![CDATA[<p>2026 January release (5.0) of Phoenix Code is now available for download at <a href="https://phcode.io/" target="_blank" rel="noopener noreferrer" class="">phcode.io</a>.</p>
+<p>Our biggest update yet - introducing <code>Phoenix Pro</code> and major upgrades like <code>Live Preview Edit</code>, <code>Emmet</code>,
+<code>Tab Bar</code>, and <code>Custom Snippets</code>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="phoenix-pro---a-sustainable-future">Phoenix Pro - A Sustainable Future<a href="https://docs.phcode.dev/zh-Hans/blog/release-5.0#phoenix-pro---a-sustainable-future" class="hash-link" aria-label="Direct link to Phoenix Pro - A Sustainable Future" title="Direct link to Phoenix Pro - A Sustainable Future" translate="no">​</a></h2>
+<p>Phoenix Code has been free and open source from day one - and <strong>everything you’ve used so far will remain free forever</strong>, including <strong>Live Preview</strong>.</p>
+<p>We’re a small, full-time indie team with <strong>no VC backing</strong>, building Phoenix Code because we believe the web deserves a
+code editor that’s genuinely <strong>simple and joyful to use</strong>. We tried to sustain development through community donations
+(<a href="https://opencollective.com/phoenix-ide" target="_blank" rel="noopener noreferrer" class="">Open Collective</a>), but over the last few years it hasn’t been enough to
+support full-time work - and we reached a hard choice: slow down drastically, or find a sustainable path that keeps Phoenix Code healthy.</p>
+<p>So we’re introducing <strong>Phoenix Pro</strong> as an <em>optional</em> way to support Phoenix Code’s future - with <strong>one Pro feature: Live Preview Edit</strong>.
+If Phoenix Code has helped you, Phoenix Pro is a way to help keep the project moving forward.</p>
+<p>Students &amp; educators get <strong>Phoenix Pro for Education</strong> at no cost, because we want classrooms to have easy
+access to modern, easy-to-use development tooling. <a href="https://docs.phcode.dev/docs/phoenix-pro-school" target="_blank" rel="noopener noreferrer" class="">Read More</a></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="live-preview-edit">Live Preview Edit<a href="https://docs.phcode.dev/zh-Hans/blog/release-5.0#live-preview-edit" class="hash-link" aria-label="Direct link to Live Preview Edit" title="Direct link to Live Preview Edit" translate="no">​</a></h2>
+<p><em>Included with Phoenix Pro.</em></p>
+<p><strong>Live Preview Edit</strong> lets you make changes directly on your page — and updates your source code instantly.</p>
+<p>Edit text, links, and images. Drag &amp; drop to rearrange elements. Cut, copy, paste, and use measurement tools
+to place things precisely.</p>
+<p>Learn more: <a href="https://docs.phcode.dev/docs/Pro%20Features/live-preview-edit" target="_blank" rel="noopener noreferrer" class="">Live Preview Edit</a>, <a href="https://docs.phcode.dev/docs/Pro%20Features/image-gallery" target="_blank" rel="noopener noreferrer" class="">Image Gallery</a>, <a href="https://docs.phcode.dev/docs/Pro%20Features/measurements" target="_blank" rel="noopener noreferrer" class="">Measurements</a>.</p>
+<div style="max-height:68vh;width:100%;display:flex;justify-content:center;align-items:center;flex-direction:column"><video style="height:90%;width:100%" controls="" autoplay="" muted="" loop=""><source src="https://docs-images.phcode.dev/videos/live-preview-edit/live-preview-edit.mp4" type="video/mp4">Your browser does not support the video tag.</video><div style="width:100%;text-align:center;font-size:1em;margin-top:10px"></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="emmet">Emmet<a href="https://docs.phcode.dev/zh-Hans/blog/release-5.0#emmet" class="hash-link" aria-label="Direct link to Emmet" title="Direct link to Emmet" translate="no">​</a></h2>
+<p><strong>Emmet</strong> one of our most requested features is finally here.</p>
+<p>Write Emmet abbreviations and Phoenix Code shows you hints. Select a hint to expand it into a full code snippet. Code faster than ever. <a href="https://docs.phcode.dev/docs/Features/emmet" target="_blank" rel="noopener noreferrer" class="">Read More</a></p>
+<div style="max-height:68vh;width:100%;display:flex;justify-content:center;align-items:center;flex-direction:column"><video style="height:90%;width:100%" controls="" autoplay="" muted="" loop=""><source src="https://docs-images.phcode.dev/videos/editing-text/emmet-html.mp4" type="video/mp4">Your browser does not support the video tag.</video><div style="width:100%;text-align:center;font-size:1em;margin-top:10px"></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="tab-bar">Tab Bar<a href="https://docs.phcode.dev/zh-Hans/blog/release-5.0#tab-bar" class="hash-link" aria-label="Direct link to Tab Bar" title="Direct link to Tab Bar" translate="no">​</a></h2>
+<p>Tab Bar is here. View all your open files at the top of the editor and switch between them instantly.</p>
+<p>Choose what works for you -Tab Bar, Working Files, or both at the same time. <a href="https://docs.phcode.dev/docs/file-management#tab-bar" target="_blank" rel="noopener noreferrer" class="">Read More</a></p>
+<p><img decoding="async" loading="lazy" alt="Tab Bar" src="https://docs.phcode.dev/zh-Hans/assets/images/tab-bar-801b0cfbb476f004a8e738a49d8ae35a.png" title="Tab Bar" width="1919" height="1104" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="custom-snippets">Custom Snippets<a href="https://docs.phcode.dev/zh-Hans/blog/release-5.0#custom-snippets" class="hash-link" aria-label="Direct link to Custom Snippets" title="Direct link to Custom Snippets" translate="no">​</a></h2>
+<p>Define your own code hints with Custom Snippets.</p>
+<p>Create hints that expand into full code blocks. You can also add cursor positions so Phoenix Code places your cursor exactly where you need it after expansion. <a href="https://docs.phcode.dev/docs/Features/custom-snippets" target="_blank" rel="noopener noreferrer" class="">Read More</a></p>
+<div style="max-height:68vh;width:100%;display:flex;justify-content:center;align-items:center;flex-direction:column"><video style="height:90%;width:100%" controls="" autoplay="" muted="" loop=""><source src="https://docs-images.phcode.dev/videos/custom-snippets/custom-snippets-main.mp4" type="video/mp4">Your browser does not support the video tag.</video><div style="width:100%;text-align:center;font-size:1em;margin-top:10px"></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="collapse-folders">Collapse Folders<a href="https://docs.phcode.dev/zh-Hans/blog/release-5.0#collapse-folders" class="hash-link" aria-label="Direct link to Collapse Folders" title="Direct link to Collapse Folders" translate="no">​</a></h2>
+<p>After working for some time, your project structure gets messy with lots of open and nested directories.</p>
+<p>But no worries now. Phoenix Code supports Collapse All Folders, which lets you reset your view by collapsing all expanded folders to their root level in one click. <a href="https://docs.phcode.dev/docs/file-management#collapse-all-folders" target="_blank" rel="noopener noreferrer" class="">Read More</a></p>
+<div style="max-height:68vh;width:100%;display:flex;justify-content:center;align-items:center;flex-direction:column"><video style="height:90%;width:100%" controls="" autoplay="" muted="" loop=""><source src="https://docs-images.phcode.dev/videos/file-management/collapse-folders.mp4" type="video/mp4">Your browser does not support the video tag.</video><div style="width:100%;text-align:center;font-size:1em;margin-top:10px"></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="notable-changes-and-fixes">Notable changes and fixes<a href="https://docs.phcode.dev/zh-Hans/blog/release-5.0#notable-changes-and-fixes" class="hash-link" aria-label="Direct link to Notable changes and fixes" title="Direct link to Notable changes and fixes" translate="no">​</a></h2>
+<ul>
+<li class="">Improved Live Preview to support internal stylesheets and SVGs better than before.</li>
+<li class="">Smarter color hints. Phoenix Code prioritizes your previously used colors. <a href="https://docs.phcode.dev/docs/editing-colors#color-hints" target="_blank" rel="noopener noreferrer" class="">Read More</a></li>
+<li class="">Git markers now appear in the scrollbar, making it easier to locate changes in a file.</li>
+<li class="">Improved Git so that it doesn't show stale project status.</li>
+<li class="">Reduced the number of popups shown when first installing Phoenix.</li>
+<li class="">Fixed an issue where macOS/iOS and browser autocorrect or smart keyboards altered filenames during renames.</li>
+<li class="">Added a dialog to notify users when they have security compromised extensions installed.</li>
+<li class="">Slowed down the Quick View popup on hover as it was interfering with user workflows.</li>
+<li class="">Fixed ghost image appearing in Safari when dragging from CodeMirror.</li>
+<li class="">Long names in Working Files are now truncated for better readability.</li>
+<li class="">Added Horizontal Scroll support. Use Shift + mouse scroll.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="all-changes">All changes<a href="https://docs.phcode.dev/zh-Hans/blog/release-5.0#all-changes" class="hash-link" aria-label="Direct link to All changes" title="Direct link to All changes" translate="no">​</a></h2>
+<p>Please see <a href="https://github.com/phcode-dev/phoenix/commits/main/?since=2025-01-30&amp;until=2026-01-18" target="_blank" rel="noopener noreferrer" class="">this link</a> for a full list of changes
+in GitHub.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-request-from-the-phoenix-team">A Request from the Phoenix Team:<a href="https://docs.phcode.dev/zh-Hans/blog/release-5.0#a-request-from-the-phoenix-team" class="hash-link" aria-label="Direct link to A Request from the Phoenix Team:" title="Direct link to A Request from the Phoenix Team:" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Share your feedback:</strong> <a href="https://github.com/orgs/phcode-dev/discussions" target="_blank" rel="noopener noreferrer" class="">https://github.com/orgs/phcode-dev/discussions</a></li>
+<li class=""><strong>Spread the word</strong> about Phoenix to friends and colleagues.</li>
+</ul>
+<p>With gratitude,</p>
+<p>The Phoenix Team</p>]]></content:encoded>
+            <category>Phoenix Pro</category>
+            <category>Live Preview Edit</category>
+            <category>Emmet</category>
+            <category>Tab Bar</category>
+            <category>Custom Snippets</category>
+            <category>Collapse Folders</category>
+            <category>Smarter hint suggestions</category>
+            <category>Stability Improvements</category>
+            <category>Windows</category>
+            <category>Linux</category>
+            <category>Mac</category>
+            <category>Release</category>
+        </item>
+        <item>
+            <title><![CDATA[Git It Release (January-2025, V-4.0) is now Live]]></title>
+            <link>https://docs.phcode.dev/zh-Hans/blog/release-4.0</link>
+            <guid>https://docs.phcode.dev/zh-Hans/blog/release-4.0</guid>
+            <pubDate>Thu, 30 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Phoenix Code 4.0 introduces built-in Git integration, color previews, and open-in-terminal support. The largest release in the Brackets legacy.]]></description>
+            <content:encoded><![CDATA[<p>2025 January release(4.0) of Phoenix Code is now available for download at <a href="https://phcode.io/" target="_blank" rel="noopener noreferrer" class="">phcode.io</a>.</p>
+<p>This is the largest release we had in a while, and we are happy to announce the next phase of Phoenix Code with
+a major version bump to 4.0.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-legacy-of-brackets---continued">The legacy of Brackets - Continued<a href="https://docs.phcode.dev/zh-Hans/blog/release-4.0#the-legacy-of-brackets---continued" class="hash-link" aria-label="Direct link to The legacy of Brackets - Continued" title="Direct link to The legacy of Brackets - Continued" translate="no">​</a></h2>
+<p>A decade-long journey of pushing web development forward: The Brackets story continues with Phoenix Code.
+<a href="https://docs.phcode.dev/blog/Blog-Legacy" target="_blank" rel="noopener noreferrer" class="">Read more about the story of Brackets and the journey to build Phoenix Code and the Brackets community.</a></p>
+<p>This release's core theme is <code>Git, Color previews, UX imporovements and stability</code>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="git-for-desktop">Git for Desktop<a href="https://docs.phcode.dev/zh-Hans/blog/release-4.0#git-for-desktop" class="hash-link" aria-label="Direct link to Git for Desktop" title="Direct link to Git for Desktop" translate="no">​</a></h2>
+<p>Git is finally here.  Integrated Git source control with a clean, intuitive interface.
+Stage changes, commit, and sync with a single click while keeping your focus on the code.
+Now available in the Windows, Mac and Linux desktop apps of Phoenix code. <a href="https://docs.phcode.dev/docs/Features/git" target="_blank" rel="noopener noreferrer" class="">Read More...</a></p>
+<p>Our Git integration is built upon the incredible work of the developers behind <a href="https://github.com/brackets-userland/brackets-git" target="_blank" rel="noopener noreferrer" class="">Brackets-Git</a>,
+whose contributions made this possible. Thank you!</p>
+<p><img decoding="async" loading="lazy" src="https://github.com/user-attachments/assets/aeacc7c0-3ee3-4a80-9b05-f2b48140bcdd" alt="Image" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/user-attachments/assets/6e7b9faf-d57b-448b-a5bb-a111c67489b5" alt="Image" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="color-previews">Color Previews<a href="https://docs.phcode.dev/zh-Hans/blog/release-4.0#color-previews" class="hash-link" aria-label="Direct link to Color Previews" title="Direct link to Color Previews" translate="no">​</a></h2>
+<p>Preview the color(s) used in the file in the gutter area. Hovering over a color box highlights the corresponding color
+text in the editor to quickly jump to editing that color. <a href="https://docs.phcode.dev/docs/editing-colors#color-preview" target="_blank" rel="noopener noreferrer" class="">Read More...</a></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/user-attachments/assets/bedecc32-761b-448e-aced-61828ad3fec6" alt="image" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="open-in-terminal-and-file-explorer">Open in Terminal and File Explorer<a href="https://docs.phcode.dev/zh-Hans/blog/release-4.0#open-in-terminal-and-file-explorer" class="hash-link" aria-label="Direct link to Open in Terminal and File Explorer" title="Direct link to Open in Terminal and File Explorer" translate="no">​</a></h2>
+<p>New "Open In" feature lets you instantly open directories and files in the system Terminal or File Explorer across
+Windows, macOS, and Linux desktop apps!</p>
+<p><img decoding="async" loading="lazy" src="https://github.com/user-attachments/assets/710330ae-8b34-4a51-a1f9-4c02736ed9bd" alt="Image" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="better-translations">Better Translations<a href="https://docs.phcode.dev/zh-Hans/blog/release-4.0#better-translations" class="hash-link" aria-label="Direct link to Better Translations" title="Direct link to Better Translations" translate="no">​</a></h2>
+<p>We've moved to an LLM-assisted translation framework, delivering higher-quality translations for non-English locales.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="notable-changes-and-fixes">Notable changes and fixes<a href="https://docs.phcode.dev/zh-Hans/blog/release-4.0#notable-changes-and-fixes" class="hash-link" aria-label="Direct link to Notable changes and fixes" title="Direct link to Notable changes and fixes" translate="no">​</a></h2>
+<ul>
+<li class="">We've removed some inconsistent and rarely used keyboard shortcuts to free up more key combinations for customization.
+<a href="https://docs.phcode.dev/docs/Features/keyboard-shortcuts" target="_blank" rel="noopener noreferrer" class="">Easily configure your own keyboard shortcuts through the UI.</a></li>
+<li class="">Fixed <code>Option-[shift]-left</code> and <code>option-[shift]-right</code> keyboard shortcuts not working in mac to select/move words.</li>
+<li class="">Survey popups are now less intrusive, appearing as notifications without disrupting your workflow.</li>
+<li class="">Moved back <code>line:ch</code> status to left of statusbar. Go to line will accept <code>:ln:col</code> format along with <code>:ln,col</code>. <img decoding="async" loading="lazy" src="https://github.com/user-attachments/assets/7429ae42-cb56-444c-8546-6d565bedaaf9" alt="Image" class="img_ev3q"></li>
+<li class=""><a href="https://github.com/phcode-dev/phoenix/pull/2035" target="_blank" rel="noopener noreferrer" class="">Remove specific files from Recent Files</a></li>
+<li class="">Fixes <a href="https://github.com/phcode-dev/phoenix/pull/2015" target="_blank" rel="noopener noreferrer" class="">holding ctrl key in windows should not ui overlay mode.</a></li>
+<li class=""><a href="https://github.com/phcode-dev/phoenix/pull/1994" target="_blank" rel="noopener noreferrer" class="">fix: <code>cmd-click</code> in mac app and safari didn't open context menu.</a></li>
+<li class=""><a href="https://github.com/phcode-dev/phoenix/pull/1999" target="_blank" rel="noopener noreferrer" class="">Switching between Ctrl+F and Ctrl+Shift+F now correctly updates the search box with the latest selection.</a></li>
+<li class=""><a href="https://github.com/phcode-dev/phoenix/pull/1997" target="_blank" rel="noopener noreferrer" class="">fix: clicking on prevent defaulted A tags in desktop live preview opens browser tab.</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="performance--stability-tweaks">Performance &amp; Stability Tweaks<a href="https://docs.phcode.dev/zh-Hans/blog/release-4.0#performance--stability-tweaks" class="hash-link" aria-label="Direct link to Performance &amp; Stability Tweaks" title="Direct link to Performance &amp; Stability Tweaks" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://github.com/phcode-dev/phoenix/pull/2055" target="_blank" rel="noopener noreferrer" class="">Faster boot times with extension compression and load changes</a>
+consistency and performance, especially on Safari and macOS.</li>
+<li class=""><a href="https://github.com/phcode-dev/phoenix/pull/2082" target="_blank" rel="noopener noreferrer" class="">File recovery should only be shown on crash, and fix some file recovery issues.</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="all-changes">All changes<a href="https://docs.phcode.dev/zh-Hans/blog/release-4.0#all-changes" class="hash-link" aria-label="Direct link to All changes" title="Direct link to All changes" translate="no">​</a></h2>
+<p>Please see <a href="https://github.com/phcode-dev/phoenix/commits/main/?since=2024-11-27&amp;until=2025-01-30" target="_blank" rel="noopener noreferrer" class="">this link</a> for a full list of changes
+in GitHub.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-request-from-the-phoenix-team">A Request from the Phoenix Team:<a href="https://docs.phcode.dev/zh-Hans/blog/release-4.0#a-request-from-the-phoenix-team" class="hash-link" aria-label="Direct link to A Request from the Phoenix Team:" title="Direct link to A Request from the Phoenix Team:" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Share your feedback:</strong> <a href="https://github.com/orgs/phcode-dev/discussions" target="_blank" rel="noopener noreferrer" class="">https://github.com/orgs/phcode-dev/discussions</a></li>
+<li class=""><strong>Spread the word</strong> about Phoenix to friends and colleagues.</li>
+<li class=""><a href="https://github.com/sponsors/phcode-dev" target="_blank" rel="noopener noreferrer" class=""><strong>Consider supporting us</strong> on GitHub Sponsors</a>. Every contribution helps us
+to keep improving Phoenix Code.</li>
+</ul>
+<p>With gratitude,</p>
+<p>The Phoenix Team</p>]]></content:encoded>
+            <category>Git</category>
+            <category>Color previews</category>
+            <category>Version Control</category>
+            <category>open in terminal</category>
+            <category>Stability Improvements</category>
+            <category>Windows</category>
+            <category>Linux</category>
+            <category>Mac</category>
+            <category>Release</category>
+        </item>
+        <item>
+            <title><![CDATA[Phoenix Code: The Legacy of Brackets - Continued]]></title>
+            <link>https://docs.phcode.dev/zh-Hans/blog/Blog-Legacy</link>
+            <guid>https://docs.phcode.dev/zh-Hans/blog/Blog-Legacy</guid>
+            <pubDate>Thu, 30 Jan 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[The story of Brackets — from its birth at Adobe to Phoenix Code. How a community kept the spirit of Brackets alive and built its future.]]></description>
+            <content:encoded><![CDATA[<p>Some stories refuse to end because of the people who believe in them. Brackets was one such story. Born at Adobe,
+it wasn’t just a code editor; it was a vision to bridge the gap between designers and developers on
+how we build for the web. But when its creators moved on, the future of Brackets seemed uncertain.</p>
+<p>Yet, Brackets lived on. Too many people loved it, relied on it, and believed in its potential. From that
+passion, Phoenix Code was born—not as a replacement, but as a continuation of everything Brackets stood for.
+Join us as we trace this journey from the birth of Brackets to the rise of Phoenix Code—and discover how a
+community’s dedication kept the spirit of Brackets alive.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="brackets-10---the-beginning">Brackets 1.0 - The Beginning<a href="https://docs.phcode.dev/zh-Hans/blog/Blog-Legacy#brackets-10---the-beginning" class="hash-link" aria-label="Direct link to Brackets 1.0 - The Beginning" title="Direct link to Brackets 1.0 - The Beginning" translate="no">​</a></h2>
+<p>Brackets 1.0 was released 10 years ago at Adobe, on the 4th of November 2014. At the time, Atom from GitHub was
+the only peer editor built on the same web-based architecture as Brackets. The web was a very different place then.
+Adobe was preparing for a post-Flash world (Read: Thoughts on Flash - an open letter by Steve Jobs, April 2010).
+Just a month earlier, in October 2014, HTML5 had become a W3C Recommendation.</p>
+<p>Brackets was born as an editor built on web standards, designed for building the web—a window into the future
+from Adobe. Adobe was mostly right in this vision. Visual Studio Code (VSCode), built on similar web technologies,
+has since risen to dominate the landscape of code editors.</p>
+<p>Brackets was created to serve as a bridge between Designer and Developer workflows before the time of Figma and XD.
+However, Adobe was primarily about design tools. As a free developer tool, Brackets was never able to find a place
+among its design-focused peers.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="brackets-20---the-brackets-open-source-community-is-born">Brackets 2.0 - The Brackets Open Source Community is Born<a href="https://docs.phcode.dev/zh-Hans/blog/Blog-Legacy#brackets-20---the-brackets-open-source-community-is-born" class="hash-link" aria-label="Direct link to Brackets 2.0 - The Brackets Open Source Community is Born" title="Direct link to Brackets 2.0 - The Brackets Open Source Community is Born" translate="no">​</a></h2>
+<p>In January 2022, Adobe <a href="https://x.com/brackets/status/1480581149604782080" target="_blank" rel="noopener noreferrer" class="">transitioned the development of Brackets</a> to the newly formed Brackets Community.
+Version 2.0 focused on establishing an independent foothold to continue Brackets' development.</p>
+<p>We kick-started the Phoenix Code project as we recognized the need to address nearly three years of
+development backlog. This laid the groundwork for the next generation of Brackets.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="phoenix-code---30-the-next-generation-of-brackets">Phoenix Code - 3.0, The Next Generation of Brackets<a href="https://docs.phcode.dev/zh-Hans/blog/Blog-Legacy#phoenix-code---30-the-next-generation-of-brackets" class="hash-link" aria-label="Direct link to Phoenix Code - 3.0, The Next Generation of Brackets" title="Direct link to Phoenix Code - 3.0, The Next Generation of Brackets" translate="no">​</a></h2>
+<p>With Phoenix Code, we built the foundation to run Brackets almost anywhere with a web browser. The first web
+version launched in June 2023, followed by desktop builds in February 2024.</p>
+<p>Version 3.0 was primarily about achieving feature parity and stability with Brackets—and then surpassing it.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="phoenix-code---40-present--future">Phoenix Code - 4.0, Present &amp; Future<a href="https://docs.phcode.dev/zh-Hans/blog/Blog-Legacy#phoenix-code---40-present--future" class="hash-link" aria-label="Direct link to Phoenix Code - 4.0, Present &amp; Future" title="Direct link to Phoenix Code - 4.0, Present &amp; Future" translate="no">​</a></h2>
+<p>We start this year(2025) with the <a href="https://docs.phcode.dev/blog/release-4.0" target="_blank" rel="noopener noreferrer" class="">release of Phoenix Code 4.0</a>- as we reach feature parity with Brackets and exceeds it
+in most cases. With this milestone, we return to the original mission of Brackets - to serve as a
+bridge between Designer and Developer workflows for the Web. To help <em>people</em> get things done simpler and faster.</p>
+<p>With immense gratitude for our users' support, we're excited to begin this next chapter of Phoenix Code.</p>]]></content:encoded>
+            <category>Brackets</category>
+            <category>Continued</category>
+            <category>Phoenix Code</category>
+            <category>History</category>
+        </item>
+        <item>
+            <title><![CDATA[Editor Experience Release (November-2024, V-3.10) is now Live]]></title>
+            <link>https://docs.phcode.dev/zh-Hans/blog/release-3.10</link>
+            <guid>https://docs.phcode.dev/zh-Hans/blog/release-3.10</guid>
+            <pubDate>Sun, 24 Nov 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Phoenix Code 3.10 improves the editor UI with indent guide lines, better performance, and visual feedback. Updated extension developer docs.]]></description>
+            <content:encoded><![CDATA[<p>November release(3.10) of Phoenix Code is now available for download at <a href="https://phcode.io/" target="_blank" rel="noopener noreferrer" class="">phcode.io</a>.</p>
+<p>This month's core theme is <code>Editor UI improvements</code>. We have fine-tuned the editing experience for better
+performance and visual feedback.
+We've also made substantial improvements to <a href="https://docs.phcode.dev/" target="_blank" rel="noopener noreferrer" class="">docs.phcode.dev</a> to better support extension
+developers.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="indent-guide-lines">Indent Guide Lines<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.10#indent-guide-lines" class="hash-link" aria-label="Direct link to Indent Guide Lines" title="Direct link to Indent Guide Lines" translate="no">​</a></h2>
+<p>Phoenix Code now supports indent guidelines to help you better visualize code structure. This feature can
+be toggled via <code>View &gt; Indent Guide Lines</code>. <a href="https://docs.phcode.dev/docs/editing-text#indent-guide-lines" target="_blank" rel="noopener noreferrer" class="">Read more...</a></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/user-attachments/assets/3d9d0c55-3c9e-4ab3-bbc0-53b563d19e39" alt="image" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="customizable-editor-line-height">Customizable Editor Line Height<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.10#customizable-editor-line-height" class="hash-link" aria-label="Direct link to Customizable Editor Line Height" title="Direct link to Customizable Editor Line Height" translate="no">​</a></h2>
+<p>Theme Settings (<code>View &gt; Themes...</code>) now has a new <code>Line Height</code> slider. Adjust the editor line height between 1x and 3x to find your
+perfect balance of readability and screen real estate. <a href="https://docs.phcode.dev/docs/editing-text#line-height" target="_blank" rel="noopener noreferrer" class="">Read more...</a></p>
+<p>Also added a <code>Get More...</code> button to the Themes dialog, linking directly to the themes section in Extension Manager.</p>
+<p><img decoding="async" loading="lazy" src="https://github.com/user-attachments/assets/97a46d9a-e971-401d-8a77-015afa6d5972" alt="image" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="linecol-indicator-relocation"><code>Line:Col</code> Indicator Relocation<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.10#linecol-indicator-relocation" class="hash-link" aria-label="Direct link to linecol-indicator-relocation" title="Direct link to linecol-indicator-relocation" translate="no">​</a></h2>
+<p>Moved to the right of the status bar, accommodating future status bar extensions. Click on the <code>line:col</code> section in the
+statusbar to jump to specific lines.</p>
+<p><img decoding="async" loading="lazy" src="https://github.com/user-attachments/assets/540ea992-dda0-4a2c-8042-3c6228616636" alt="image" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="performance-tweaks">Performance Tweaks<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.10#performance-tweaks" class="hash-link" aria-label="Direct link to Performance Tweaks" title="Direct link to Performance Tweaks" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://github.com/phcode-dev/phoenix/pull/1943" target="_blank" rel="noopener noreferrer" class="">Major improvements to editor rendering</a> with better editor scroll
+consistency and performance, especially on Safari and macOS.</li>
+<li class=""><a href="https://github.com/phcode-dev/phoenix/pull/1937" target="_blank" rel="noopener noreferrer" class="">Faster startup of extension manager.</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="stability-improvements">Stability Improvements<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.10#stability-improvements" class="hash-link" aria-label="Direct link to Stability Improvements" title="Direct link to Stability Improvements" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://github.com/phcode-dev/phoenix/pull/1889" target="_blank" rel="noopener noreferrer" class="">File recovery now does integrity checks for more reliable crash recovery.</a></li>
+<li class=""><a href="https://github.com/phcode-dev/phoenix/pull/1838" target="_blank" rel="noopener noreferrer" class="">Fixed Markdown image link handling within href tags.</a></li>
+<li class=""><a href="https://github.com/phcode-dev/phoenix/pull/1932" target="_blank" rel="noopener noreferrer" class="">Improved extension registry management to prevent quota issues on Mac/Linux.</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="documentation-updates">Documentation Updates<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.10#documentation-updates" class="hash-link" aria-label="Direct link to Documentation Updates" title="Direct link to Documentation Updates" translate="no">​</a></h2>
+<p>Our documentation site - <a href="https://docs.phcode.dev/" target="_blank" rel="noopener noreferrer" class="">docs.phcode.dev</a> has received a major overhaul:</p>
+<ul>
+<li class="">Updated user guide: <a href="https://docs.phcode.dev/docs/intro" target="_blank" rel="noopener noreferrer" class="">docs.phcode.dev/docs/intro</a></li>
+<li class="">New API documentation for extension developers: <a href="https://docs.phcode.dev/api/getting-started" target="_blank" rel="noopener noreferrer" class="">docs.phcode.dev/api/getting-started</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="all-changes">All changes<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.10#all-changes" class="hash-link" aria-label="Direct link to All changes" title="Direct link to All changes" translate="no">​</a></h2>
+<p>Please see <a href="https://github.com/phcode-dev/phoenix/commits/main/?since=2024-09-11&amp;until=2024-11-24" target="_blank" rel="noopener noreferrer" class="">this link</a> for a full list of changes
+in GitHub.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-request-from-the-phoenix-team">A Request from the Phoenix Team:<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.10#a-request-from-the-phoenix-team" class="hash-link" aria-label="Direct link to A Request from the Phoenix Team:" title="Direct link to A Request from the Phoenix Team:" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Share your feedback:</strong> <a href="https://github.com/orgs/phcode-dev/discussions" target="_blank" rel="noopener noreferrer" class="">https://github.com/orgs/phcode-dev/discussions</a></li>
+<li class=""><strong>Spread the word</strong> about Phoenix to friends and colleagues.</li>
+<li class=""><a href="https://github.com/sponsors/phcode-dev" target="_blank" rel="noopener noreferrer" class=""><strong>Consider supporting us</strong> on GitHub Sponsors</a>. Every contribution helps us
+to keep improving Phoenix Code.</li>
+</ul>
+<p>With gratitude,</p>
+<p>The Phoenix Team</p>]]></content:encoded>
+            <category>Editor Experience</category>
+            <category>UI Improvements</category>
+            <category>Windows</category>
+            <category>Linux</category>
+            <category>Mac</category>
+            <category>Release</category>
+        </item>
+        <item>
+            <title><![CDATA[HTML Workflows and stability Release (September-2024, V-3.9) is now Live]]></title>
+            <link>https://docs.phcode.dev/zh-Hans/blog/release-3.9</link>
+            <guid>https://docs.phcode.dev/zh-Hans/blog/release-3.9</guid>
+            <pubDate>Mon, 02 Sep 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Phoenix Code 3.9 improves app stability and robustness, adds HTML and text editing workflow enhancements, and ChromeOS support.]]></description>
+            <content:encoded><![CDATA[<p>September release(3.9) of Phoenix Code is now available for download at
+<a href="https://phcode.io/" target="_blank" rel="noopener noreferrer" class="">phcode.io</a>.</p>
+<p>This month's core theme is <code>App robustness</code> and <code>stability</code> improvements.
+We have also added several <code>HTML and Text Editing</code> workflow improvements.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="now-available-on-chromeos">Now Available on ChromeOS<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.9#now-available-on-chromeos" class="hash-link" aria-label="Direct link to Now Available on ChromeOS" title="Direct link to Now Available on ChromeOS" translate="no">​</a></h2>
+<p>All new native ChromeOS app is now available on the Google Play Store.
+The ChromeOS app is a highly requested feature and is specially made for education and student use.</p>
+<p><a href="https://play.google.com/store/apps/details?id=prod.phcode.twa" target="_blank" rel="noopener noreferrer" class=""><img decoding="async" loading="lazy" src="https://github.com/user-attachments/assets/0a7f20ce-653c-43a8-ac3e-3875ea74df5b" alt="google play icon (1)" class="img_ev3q"></a></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="auto-rename-start-and-end-of-htmlxmlsvg-tags">Auto rename start and end of HTML/XML/SVG tags<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.9#auto-rename-start-and-end-of-htmlxmlsvg-tags" class="hash-link" aria-label="Direct link to Auto rename start and end of HTML/XML/SVG tags" title="Direct link to Auto rename start and end of HTML/XML/SVG tags" translate="no">​</a></h2>
+<p>Automatically rename paired HTML/XML/SVG tags as you type at the start or end of the tag. <a href="https://docs.phcode.dev/docs/editing-text/#auto-rename-tag" target="_blank" rel="noopener noreferrer" class="">Read more...</a></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/user-attachments/assets/ad82db8c-df1c-4c83-a5db-145caab539ec" alt="tag sync" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="auto-tab-and-spacing-detection">Auto Tab and Spacing detection<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.9#auto-tab-and-spacing-detection" class="hash-link" aria-label="Direct link to Auto Tab and Spacing detection" title="Direct link to Auto Tab and Spacing detection" translate="no">​</a></h2>
+<p>Phoenix Code can now automatically detect and apply the indentation style (tabs or spaces) based on the existing code in the file.
+<a href="https://docs.phcode.dev/docs/editing-text/#auto-space-detection" target="_blank" rel="noopener noreferrer" class="">Read more...</a></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/user-attachments/assets/0adc47c5-a561-4002-bffb-d7bcde999b9d" alt="image" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="ux-improvements">UX Improvements<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.9#ux-improvements" class="hash-link" aria-label="Direct link to UX Improvements" title="Direct link to UX Improvements" translate="no">​</a></h2>
+<ul>
+<li class=""><code>Reopen closed files</code> option added to <code>File</code> menu. Shortcut: <code>Ctrl-Shift-T</code>, or (<code>Cmd-Shift-T</code> on Mac).</li>
+<li class=""><code>Go to Next Problem</code> and <code>Go to Previous Problem</code> option added to <a href="https://github.com/phcode-dev/phoenix/pull/1732" target="_blank" rel="noopener noreferrer" class=""><code>Navigate</code> menu.</a></li>
+<li class=""><a href="https://github.com/orgs/phcode-dev/discussions/1809" target="_blank" rel="noopener noreferrer" class="">Tab key press to insert code hints</a></li>
+<li class=""><code>window.alert</code>, <code>window.confirm</code> and <code>window.prompt</code> APIs <a href="https://github.com/phcode-dev/phoenix/pull/1814" target="_blank" rel="noopener noreferrer" class="">will work in live preview</a></li>
+<li class="">Clicking on live preview no longer automatically switches from your <a href="https://github.com/phcode-dev/phoenix/pull/1800" target="_blank" rel="noopener noreferrer" class="">current unrelated file to the main HTML file.</a></li>
+<li class="">Live preview usability and navigation improvements - (<a href="https://github.com/phcode-dev/phoenix/pull/1741" target="_blank" rel="noopener noreferrer" class="">1</a>, <a href="https://github.com/phcode-dev/phoenix/pull/1760" target="_blank" rel="noopener noreferrer" class="">2</a>)</li>
+<li class="">Increase/Decrease font size will <a href="https://github.com/phcode-dev/phoenix/pull/1799" target="_blank" rel="noopener noreferrer" class="">change the Editor Font size Only</a>.</li>
+<li class="">Fixed issue where code folding markers disappear when hovering over gutter in dark theme.</li>
+<li class=""><code>.cjs</code> and <code>.mjs</code> files support as javascript files.</li>
+<li class="">Support for <code>shtml</code> custom server live preview.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="stability-improvements">Stability Improvements<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.9#stability-improvements" class="hash-link" aria-label="Direct link to Stability Improvements" title="Direct link to Stability Improvements" translate="no">​</a></h2>
+<ul>
+<li class=""><a href="https://github.com/phcode-dev/phoenix/issues/1791" target="_blank" rel="noopener noreferrer" class="">Fixes node crashes after wakeup from sleep in Windows/Mac.</a></li>
+<li class=""><a href="https://github.com/phcode-dev/phoenix/issues/1821" target="_blank" rel="noopener noreferrer" class="">Kaspersky AV trojan horse false positive mitigation.</a></li>
+<li class=""><a href="https://github.com/phcode-dev/phoenix/pull/1818" target="_blank" rel="noopener noreferrer" class="">Corrupt preferences auto reset.</a></li>
+<li class=""><a href="https://github.com/phcode-dev/phoenix/pull/1812" target="_blank" rel="noopener noreferrer" class="">Boot time crash recovery.</a></li>
+<li class="">Phoenix Code won't start in <a href="https://github.com/phcode-dev/phoenix/pull/1740" target="_blank" rel="noopener noreferrer" class="">some Fedora/other Linux distros.</a></li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="update-on-release-schedule">Update on Release Schedule<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.9#update-on-release-schedule" class="hash-link" aria-label="Direct link to Update on Release Schedule" title="Direct link to Update on Release Schedule" translate="no">​</a></h2>
+<p>In the past, we've released Phoenix Code updates on a monthly basis. However, last month we encountered an issue with our release that led to stability problems for our users.</p>
+<p>To address this, we've taken a step back to reevaluate our release process and make improvements to ensure greater robustness and reliability going forward.</p>
+<p>As a result, we've decided to slow down the desktop release schedule to once every two months. This will allow us to thoroughly test each update and deliver a more stable experience.</p>
+<p>We apologize for any inconvenience caused by the previous release and appreciate your patience and understanding as we work to improve the quality of Phoenix Code.</p>
+<p>We look forward to bringing you new features and improvements in a more controlled and reliable manner.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-request-from-the-phoenix-team">A Request from the Phoenix Team:<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.9#a-request-from-the-phoenix-team" class="hash-link" aria-label="Direct link to A Request from the Phoenix Team:" title="Direct link to A Request from the Phoenix Team:" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Share your feedback:</strong> <a href="https://github.com/orgs/phcode-dev/discussions" target="_blank" rel="noopener noreferrer" class="">https://github.com/orgs/phcode-dev/discussions</a></li>
+<li class=""><strong>Spread the word</strong> about Phoenix to friends and colleagues.</li>
+<li class=""><a href="https://github.com/sponsors/phcode-dev" target="_blank" rel="noopener noreferrer" class=""><strong>Consider supporting us</strong> on GitHub Sponsors</a>.
+Every contribution helps us to keep improving Phoenix Code.</li>
+</ul>
+<p>With gratitude,</p>
+<p>The Phoenix Team</p>]]></content:encoded>
+            <category>Live Preview</category>
+            <category>Live Code Hints</category>
+            <category>Windows</category>
+            <category>Linux</category>
+            <category>Mac</category>
+            <category>Release</category>
+        </item>
+        <item>
+            <title><![CDATA[Critical Update + HTML Helpers Release (June-2024, V-3.8) is now Live]]></title>
+            <link>https://docs.phcode.dev/zh-Hans/blog/release-3.8</link>
+            <guid>https://docs.phcode.dev/zh-Hans/blog/release-3.8</guid>
+            <pubDate>Thu, 27 Jun 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Phoenix Code 3.8 fixes crashes on M1 Macs and Linux, adds HTML drag-and-drop editing, and improves live preview stability.]]></description>
+            <content:encoded><![CDATA[<p>June release(3.8) of Phoenix Code is now available for download at
+<a href="https://phcode.io/" target="_blank" rel="noopener noreferrer" class="">phcode.io</a>.</p>
+<p>This update addresses a critical issue where Phoenix Code crashes in M1 Macs
+at app start after a recent macOS update. Also fixes app start issues in some
+newer Linux distributions with latest webkitGTK.</p>
+<p>This month's theme is all about <code>HTML assistance</code>, <code>Drag and Drop</code> and
+<code>ESLint</code>. We've also addressed numerous feature requests and bug reports, along
+with improving app UX and stability.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="html-validation">HTML Validation<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.8#html-validation" class="hash-link" aria-label="Direct link to HTML Validation" title="Direct link to HTML Validation" translate="no">​</a></h4>
+<p>We have added HTML Validator to help you find errors like duplicate IDs,
+unrecognized tags, and more. <a href="https://docs.phcode.dev/docs/Features/Problems%20Panel/html-lint/" target="_blank" rel="noopener noreferrer" class="">Read more here.</a></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/phcode-dev/phoenix/assets/5336369/5bc4a1cc-2429-477c-83ca-91f19dcc0b0f" alt="HTML validate" class="img_ev3q"></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="drag-and-drop-files-and-folders-in-desktop-apps---experimental">Drag and Drop Files and Folders in Desktop Apps - Experimental<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.8#drag-and-drop-files-and-folders-in-desktop-apps---experimental" class="hash-link" aria-label="Direct link to Drag and Drop Files and Folders in Desktop Apps - Experimental" title="Direct link to Drag and Drop Files and Folders in Desktop Apps - Experimental" translate="no">​</a></h4>
+<p>Drag files from Explorer (Windows) or Finder (Mac) and drop them into Phoenix
+Code to open individual files. Drop a folder to open it as a project.</p>
+<blockquote>
+<p>Note: This feature is currently disabled on Linux due to UI issues in some
+Linux distributions. To enable it, select menu
+<code>Debug -&gt; Experimental Features -&gt; Drag And Drop Files.</code></p>
+</blockquote>
+<blockquote>
+<p>This feature is not yet available in the browser version @ phcode.dev</p>
+</blockquote>
+<p><img decoding="async" loading="lazy" src="https://github.com/phcode-dev/phoenix/assets/5336369/ddd96ff7-bc99-46a6-a62d-6f6f5b78438b" alt="drag and drop" class="img_ev3q"></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="eslint-support">ESLint Support<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.8#eslint-support" class="hash-link" aria-label="Direct link to ESLint Support" title="Direct link to ESLint Support" translate="no">​</a></h4>
+<p>All new and simplified ESLint experience that displays all ESLint errors in a
+file. Fix one or all errors with a single click. To enable, open a project that
+uses ESLint in Phoenix Code. <a href="https://docs.phcode.dev/docs/Features/Problems%20Panel/ESLint/" target="_blank" rel="noopener noreferrer" class="">Read more here.</a></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/phcode-dev/phoenix/assets/5336369/eb00691a-a0b4-4c1a-9209-d78fc7db764d" alt="image" class="img_ev3q"></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="ux-improvements">UX Improvements<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.8#ux-improvements" class="hash-link" aria-label="Direct link to UX Improvements" title="Direct link to UX Improvements" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Non-Intrusive Automatic Updates:</strong> Updates are now installed in the
+background with no more distracting dialogs when an update is available.</li>
+<li class=""><strong>Case-Sensitive File Renaming:</strong> Renaming files to a different case, such as
+<code>a.txt</code> to <code>A.TXT</code>, is now supported.</li>
+<li class=""><code>File &gt; New Project</code> is now renamed to <code>Start Project</code>.</li>
+<li class="">Increased stability and app startup experience.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-request-from-the-phoenix-team">A Request from the Phoenix Team:<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.8#a-request-from-the-phoenix-team" class="hash-link" aria-label="Direct link to A Request from the Phoenix Team:" title="Direct link to A Request from the Phoenix Team:" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Share your feedback:</strong> <a href="https://github.com/orgs/phcode-dev/discussions" target="_blank" rel="noopener noreferrer" class="">https://github.com/orgs/phcode-dev/discussions</a></li>
+<li class=""><strong>Spread the word</strong> about Phoenix to friends and colleagues.</li>
+<li class=""><a href="https://github.com/sponsors/phcode-dev" target="_blank" rel="noopener noreferrer" class=""><strong>Consider supporting us</strong> on GitHub Sponsors</a>.
+Every contribution helps us to keep improving Phoenix Code.</li>
+</ul>
+<p>With gratitude,</p>
+<p>The Phoenix Team</p>]]></content:encoded>
+            <category>Live Preview</category>
+            <category>Live Code Hints</category>
+            <category>Windows</category>
+            <category>Linux</category>
+            <category>Mac</category>
+            <category>Release</category>
+        </item>
+        <item>
+            <title><![CDATA[Little Things Release (May-2024, V-3.7) is now Live]]></title>
+            <link>https://docs.phcode.dev/zh-Hans/blog/release-3.7</link>
+            <guid>https://docs.phcode.dev/zh-Hans/blog/release-3.7</guid>
+            <pubDate>Sun, 26 May 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Phoenix Code 3.7 focuses on live preview improvements, CSS class and style code hints, and small UX refinements.]]></description>
+            <content:encoded><![CDATA[<p>May release(3.7) of Phoenix Code is now available for download at
+<a href="https://phcode.io/" target="_blank" rel="noopener noreferrer" class="">phcode.io</a>.</p>
+<p>This month's release is all about Live previews and the little things that make
+your work just a bit easier. We've also addressed numerous feature requests and
+UX bug reports, along with improving app UX and stability.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="live-css-class-and-style-code-hints">Live CSS Class and Style Code Hints<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.7#live-css-class-and-style-code-hints" class="hash-link" aria-label="Direct link to Live CSS Class and Style Code Hints" title="Direct link to Live CSS Class and Style Code Hints" translate="no">​</a></h4>
+<p>Interactively edit CSS styles and classes using the up/down arrow keys in code
+hints. This is available in CSS files and inline CSS styles/class names in HTML
+files. This provides an instant boost to your HTML and CSS workflows.</p>
+<p><img decoding="async" loading="lazy" src="https://github.com/phcode-dev/phoenix/assets/5336369/502c8751-5269-4c34-9178-5ad08f8ad837" alt="classLiveHints" class="img_ev3q"></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="csshtml-code-hints-improvements">CSS/HTML Code Hints improvements<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.7#csshtml-code-hints-improvements" class="hash-link" aria-label="Direct link to CSS/HTML Code Hints improvements" title="Direct link to CSS/HTML Code Hints improvements" translate="no">​</a></h4>
+<p>Improved relevance of suggestions in CSS and HTML code hints. For E.g.,
+typing <code>b</code> in a CSS file will prioritize <code>background-color</code>. Typing <code>between</code>
+will bring up relevant CSS property-value combinations like <code>align-content: space-between;</code>
+(see image below), so you don't have to remember which value is under which CSS property.</p>
+<p><img decoding="async" loading="lazy" src="https://github.com/phcode-dev/phoenix/assets/5336369/2a9f8809-de19-43cf-bdcd-d1a5def2e080" alt="image" class="img_ev3q"></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="move-to-trashbin-when-deleting-files">Move to trash/bin when deleting files<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.7#move-to-trashbin-when-deleting-files" class="hash-link" aria-label="Direct link to Move to trash/bin when deleting files" title="Direct link to Move to trash/bin when deleting files" translate="no">​</a></h4>
+<p>Deleting files from the files panel in desktop apps will move the file/folder to
+trash/recycle bin instead of permanently deleting it.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="ux-improvements">UX Improvements<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.7#ux-improvements" class="hash-link" aria-label="Direct link to UX Improvements" title="Direct link to UX Improvements" translate="no">​</a></h4>
+<ul>
+<li class="">Deleting the <code>Phoenix Code</code> folder in user <code>Documents</code> directory is now supported.</li>
+<li class="">Increased stability and app startup experience.</li>
+<li class=""><code>Copy Error Message</code> button is now available in the problems panel.</li>
+</ul>
+<p><img decoding="async" loading="lazy" src="https://github.com/phcode-dev/phoenix/assets/5336369/95c59e71-5ce8-4697-963e-0fa567062ab0" alt="image" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-request-from-the-phoenix-team">A Request from the Phoenix Team:<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.7#a-request-from-the-phoenix-team" class="hash-link" aria-label="Direct link to A Request from the Phoenix Team:" title="Direct link to A Request from the Phoenix Team:" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Share your feedback:</strong> <a href="https://github.com/orgs/phcode-dev/discussions" target="_blank" rel="noopener noreferrer" class="">https://github.com/orgs/phcode-dev/discussions</a></li>
+<li class=""><strong>Spread the word</strong> about Phoenix to friends and colleagues.</li>
+<li class=""><a href="https://github.com/sponsors/phcode-dev" target="_blank" rel="noopener noreferrer" class=""><strong>Consider supporting us</strong> on GitHub Sponsors</a>.
+Every contribution helps us to keep improving Phoenix Code.</li>
+</ul>
+<p>With gratitude,</p>
+<p>The Phoenix Team</p>]]></content:encoded>
+            <category>Live Preview</category>
+            <category>Live Code Hints</category>
+            <category>Windows</category>
+            <category>Linux</category>
+            <category>Mac</category>
+            <category>Release</category>
+        </item>
+        <item>
+            <title><![CDATA[April-2024 Release (V-3.6) is now Live]]></title>
+            <link>https://docs.phcode.dev/zh-Hans/blog/release-3.6</link>
+            <guid>https://docs.phcode.dev/zh-Hans/blog/release-3.6</guid>
+            <pubDate>Sat, 27 Apr 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Phoenix Code 3.6 adds PHP and custom live preview servers, advanced CSS/LESS/SCSS code intelligence, and UX improvements.]]></description>
+            <content:encoded><![CDATA[<p>April release(3.6) of Phoenix Code is now available for download at
+<a href="https://phcode.io/" target="_blank" rel="noopener noreferrer" class="">phcode.io</a>.</p>
+<p>This month's upgrade is big! with a lot of features you asked for - PHP/Custom
+live preview servers, advanced CSS/LESS/SCSS/HTML code intelligence and tooling,
+UX and app stability improvements.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="custom-live-preview-servers">Custom Live Preview Servers<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.6#custom-live-preview-servers" class="hash-link" aria-label="Direct link to Custom Live Preview Servers" title="Direct link to Custom Live Preview Servers" translate="no">​</a></h4>
+<p>Preview PHP, React, and other dynamically rendered files with the
+new server settings dialog. Read more at
+<a href="https://docs.phcode.dev/docs/Features/live-preview-settings/" target="_blank" rel="noopener noreferrer" class="">Live Preview Settings Docs</a>.</p>
+<p><img decoding="async" loading="lazy" src="https://github.com/phcode-dev/phoenix/assets/5336369/69fa0ee4-7262-42af-97d2-26154ec4a3b9" alt="Screenshot from 2024-04-12 13-08-34" class="img_ev3q"></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="html-code-intelligence">HTML Code Intelligence<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.6#html-code-intelligence" class="hash-link" aria-label="Direct link to HTML Code Intelligence" title="Direct link to HTML Code Intelligence" translate="no">​</a></h4>
+<p>CSS class hints are now shown within the HTML file's class attribute.</p>
+<p><img decoding="async" loading="lazy" src="https://github.com/phcode-dev/phoenix/assets/5336369/112ad909-8fd0-4fc4-8042-041ecade9481" alt="image" class="img_ev3q"></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="advanced-css-tooling">Advanced CSS Tooling<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.6#advanced-css-tooling" class="hash-link" aria-label="Direct link to Advanced CSS Tooling" title="Direct link to Advanced CSS Tooling" translate="no">​</a></h4>
+<p>Support for the latest CSS/LESS/SCSS syntax. Code intelligence and error
+detection for CSS, SCSS, and LESS files.</p>
+<p><img decoding="async" loading="lazy" src="https://github.com/phcode-dev/phoenix/assets/5336369/9c083bd3-9e34-418d-a1c8-c152393c37b2" alt="image" class="img_ev3q"></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="reverse-css-highlighting">Reverse CSS Highlighting<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.6#reverse-css-highlighting" class="hash-link" aria-label="Direct link to Reverse CSS Highlighting" title="Direct link to Reverse CSS Highlighting" translate="no">​</a></h4>
+<p>Clicking an element in the live preview now highlights its selector in the
+source CSS file editor.</p>
+<p><img decoding="async" loading="lazy" src="https://github.com/phcode-dev/phoenix/assets/5336369/dcb9a111-60fa-479b-8766-dd3109b2134f" alt="Reverse CSS Highlighting gif" class="img_ev3q"></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="editor-rulers">Editor Rulers<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.6#editor-rulers" class="hash-link" aria-label="Direct link to Editor Rulers" title="Direct link to Editor Rulers" translate="no">​</a></h4>
+<p>Add multiple, color-customizable rulers in the editor to better visualize line
+lengths. <a href="https://docs.phcode.dev/docs/Features/editor-rulers/" target="_blank" rel="noopener noreferrer" class="">Read more...</a></p>
+<p><img decoding="async" loading="lazy" src="https://github.com/phcode-dev/phoenix/assets/5336369/71b8b04c-d2ca-47b8-84bb-53cd0fb4593c" alt="image" class="img_ev3q"></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="open-live-preview-in-any-browser">Open Live Preview in any Browser<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.6#open-live-preview-in-any-browser" class="hash-link" aria-label="Direct link to Open Live Preview in any Browser" title="Direct link to Open Live Preview in any Browser" translate="no">​</a></h4>
+<p>Direct buttons to open live previews in Chrome, Edge, Safari, and Firefox.</p>
+<p><img decoding="async" loading="lazy" src="https://github.com/phcode-dev/phoenix/assets/5336369/05f92c99-8a35-45a5-a8ee-75d581e6e96a" alt="image" class="img_ev3q"></p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="docusaurus-support">Docusaurus Support<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.6#docusaurus-support" class="hash-link" aria-label="Direct link to Docusaurus Support" title="Direct link to Docusaurus Support" translate="no">​</a></h4>
+<p>Live preview <a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer" class="">docusaurus.io</a> based markdown
+documentation server.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="ux-improvements">UX Improvements<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.6#ux-improvements" class="hash-link" aria-label="Direct link to UX Improvements" title="Direct link to UX Improvements" translate="no">​</a></h4>
+<p>Increased stability and more predictable live preview behavior.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="community-contributions">Community Contributions<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.6#community-contributions" class="hash-link" aria-label="Direct link to Community Contributions" title="Direct link to Community Contributions" translate="no">​</a></h4>
+<ol>
+<li class="">Changes to files and folders made externally are now automatically synced in
+the Browser version of Phoenix Code.
+(<a href="https://github.com/phcode-dev/phoenix/pull/1566" target="_blank" rel="noopener noreferrer" class="">view change</a>) - By
+<a href="https://github.com/ayoung5555" target="_blank" rel="noopener noreferrer" class="">Andrew Young</a>,
+<a href="https://github.com/faizanbhagat" target="_blank" rel="noopener noreferrer" class="">Faizan Bhagat</a></li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-request-from-the-phoenix-team">A Request from the Phoenix Team:<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.6#a-request-from-the-phoenix-team" class="hash-link" aria-label="Direct link to A Request from the Phoenix Team:" title="Direct link to A Request from the Phoenix Team:" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Share your feedback:</strong> <a href="https://github.com/orgs/phcode-dev/discussions" target="_blank" rel="noopener noreferrer" class="">https://github.com/orgs/phcode-dev/discussions</a></li>
+<li class=""><strong>Spread the word</strong> about Phoenix to friends and colleagues.</li>
+<li class=""><a href="https://github.com/sponsors/phcode-dev" target="_blank" rel="noopener noreferrer" class=""><strong>Consider supporting us</strong> on GitHub Sponsors</a>.
+Every contribution helps us to keep improving Phoenix Code.</li>
+</ul>
+<p>With gratitude,</p>
+<p>The Phoenix Team</p>]]></content:encoded>
+            <category>Native Apps</category>
+            <category>Windows</category>
+            <category>Linux</category>
+            <category>Mac</category>
+            <category>Release</category>
+        </item>
+        <item>
+            <title><![CDATA[March-2024 Release (V-3.5) is now Live]]></title>
+            <link>https://docs.phcode.dev/zh-Hans/blog/release-3.5</link>
+            <guid>https://docs.phcode.dev/zh-Hans/blog/release-3.5</guid>
+            <pubDate>Tue, 26 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Phoenix Code 3.5 improves large project support, Find in Files, inline HTML number dials, and app stability. Download for Windows, Mac, and Linux.]]></description>
+            <content:encoded><![CDATA[<p>The March release(3.5) of Phoenix Code is now available for download
+at <a href="https://phcode.io/" target="_blank" rel="noopener noreferrer" class="">phcode.io</a>.
+This month's update improves support for large projects, Find in Files, and app stability.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="inline-html-number-dials">Inline HTML Number Dials<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.5#inline-html-number-dials" class="hash-link" aria-label="Direct link to Inline HTML Number Dials" title="Direct link to Inline HTML Number Dials" translate="no">​</a></h2>
+<p>You can now use number dials in inline HTML styles, not just in CSS files.</p>
+<p><img decoding="async" loading="lazy" src="https://github.com/phcode-dev/phoenix/assets/5336369/f56ab73b-c080-4f01-a083-f41aa10c3d16" alt="image" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="search-filters---advanced-find-in-files">Search Filters - Advanced Find in Files<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.5#search-filters---advanced-find-in-files" class="hash-link" aria-label="Direct link to Search Filters - Advanced Find in Files" title="Direct link to Search Filters - Advanced Find in Files" translate="no">​</a></h2>
+<p>All new search filters to find exactly what you want. <code>Search in files</code> or
+<code>Exclude files</code> matching the given pattern instantly.</p>
+<p><img decoding="async" loading="lazy" src="https://github.com/phcode-dev/phoenix/assets/5336369/9a46a6a8-01a2-45db-aebc-9b280977bdc1" alt="new find in files" class="img_ev3q"></p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="other-improvements">Other Improvements<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.5#other-improvements" class="hash-link" aria-label="Direct link to Other Improvements" title="Direct link to Other Improvements" translate="no">​</a></h2>
+<ul>
+<li class="">Projects with very large number of files can now be opened.</li>
+<li class="">Performance improvement when opening minified CSS/JS files and other formats
+with very long lines.</li>
+<li class="">Added support for beautifying SCSS, SASS, LESS, TSX, and JSX files. The
+beautification feature now preserves the cursor position.</li>
+<li class="">Improved startup speed and overall app stability.</li>
+<li class="">Bug fixes and improvements to new project dialog.</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="a-request-from-the-phoenix-team">A Request from the Phoenix Team:<a href="https://docs.phcode.dev/zh-Hans/blog/release-3.5#a-request-from-the-phoenix-team" class="hash-link" aria-label="Direct link to A Request from the Phoenix Team:" title="Direct link to A Request from the Phoenix Team:" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Share your feedback:</strong> <a href="https://github.com/orgs/phcode-dev/discussions" target="_blank" rel="noopener noreferrer" class="">https://github.com/orgs/phcode-dev/discussions</a></li>
+<li class=""><strong>Spread the word</strong> about Phoenix to friends and colleagues.</li>
+<li class=""><a href="https://opencollective.com/phoenix-ide" target="_blank" rel="noopener noreferrer" class=""><strong>Consider supporting us</strong> on Open Collective</a>. Every contribution helps us to keep improving and expanding Phoenix Code.</li>
+</ul>
+<p>With gratitude,</p>
+<p>The Phoenix Team</p>]]></content:encoded>
+            <category>Native Apps</category>
+            <category>Windows</category>
+            <category>Linux</category>
+            <category>Mac</category>
+            <category>Release</category>
+        </item>
+        <item>
+            <title><![CDATA[Introducing Phoenix Code Desktop- Now on Windows, Mac & Linux]]></title>
+            <link>https://docs.phcode.dev/zh-Hans/blog/welcome</link>
+            <guid>https://docs.phcode.dev/zh-Hans/blog/welcome</guid>
+            <pubDate>Tue, 05 Mar 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Phoenix Code native desktop apps are now available for Windows, Mac, and Linux. Web version available for ChromeOS and other platforms.]]></description>
+            <content:encoded><![CDATA[<p>We're thrilled to share a huge update with you all today - Phoenix Code native apps are officially here! 🎉 . Get your copy from <a href="https://phcode.io/" target="_blank" rel="noopener noreferrer" class="">phcode.io</a> !</p>
+<p>We have been working hard over the last several months to make native apps possible. It took a lot of effort and perseverance with our limited resources to reach this far. We hope to have your support in doing more :)</p>
+<p>With this update,  Phoenix Code can now run almost anywhere! Native apps are available for Windows, Mac and most Linux distributions. For Chrome-OS and other platforms, simply use the web browser version; no install needed.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="looking-back">Looking Back<a href="https://docs.phcode.dev/zh-Hans/blog/welcome#looking-back" class="hash-link" aria-label="Direct link to Looking Back" title="Direct link to Looking Back" translate="no">​</a></h2>
+<p>The team building Phoenix Code started its history as some of the initial team members building Brackets at Adobe from 2014. Phoenix Code took over the full time development of Brackets in 2021. We had a mammoth task to bring Brackets up to date with the latest web technologies. <a href="https://www.reddit.com/r/brackets/comments/tz06tn/brackets_community_announcement_phoenix_code/" target="_blank" rel="noopener noreferrer" class="">The result was Phoenix Code</a>- A Platform rewrite of Brackets that allowed it to run on any Web Browser. But our users were pretty clear that a desktop app was needed.</p>
+<p>It was at this time that this hot new rust based tech called <a href="https://tauri.app/" target="_blank" rel="noopener noreferrer" class=""><code>Tauri framework</code></a> came into the picture and we finally had the missing piece to build a truly modern and light-weight desktop app. Fast forward to 2024 and Phoenix Code now runs <em>almost</em> anywhere(<em>almost</em> as we are one step short with touch and mobile screens).</p>
+<p>Phoenix Code marks the first large-scale, truly independent release from the Brackets community. Entirely homegrown within the community, it is also the largest engineering effort put into Brackets since 2015 (including Adobe).</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="acknowledgements">Acknowledgements<a href="https://docs.phcode.dev/zh-Hans/blog/welcome#acknowledgements" class="hash-link" aria-label="Direct link to Acknowledgements" title="Direct link to Acknowledgements" translate="no">​</a></h2>
+<p>This release is made possible by the Phoenix Code Team- <a href="https://github.com/abose" target="_blank" rel="noopener noreferrer" class="">Arun</a>, <a href="https://github.com/charlypa" target="_blank" rel="noopener noreferrer" class="">Charly</a> and <a href="https://github.com/mathewdennis1" target="_blank" rel="noopener noreferrer" class="">Mathew</a>. Our shiny new website <a href="https://phcode.io/" target="_blank" rel="noopener noreferrer" class="">phcode.io</a> is built by community contribution from <a href="https://github.com/kiranbose" target="_blank" rel="noopener noreferrer" class="">Kiran</a>.</p>
+<p>We would also like to thank the S-tier community support provided by the <a href="https://tauri.app/" target="_blank" rel="noopener noreferrer" class="">Tauri</a> development team, esp. <a href="https://github.com/FabianLars" target="_blank" rel="noopener noreferrer" class="">Fabian</a>.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="looking-ahead">Looking Ahead<a href="https://docs.phcode.dev/zh-Hans/blog/welcome#looking-ahead" class="hash-link" aria-label="Direct link to Looking Ahead" title="Direct link to Looking Ahead" translate="no">​</a></h2>
+<blockquote>
+<p>Our guiding principle is to make coding as intuitive and fun as playing a video game - for web developers, designers, and students.</p>
+</blockquote>
+<p>With the native apps now available, we're starting the next phase of our journey. Beginning this month, there will be
+a new update of Phoenix Code released every month with all the features that you <a href="https://github.com/phcode-dev/phoenix/issues?q=is%3Aissue+is%3Aopen+label%3A%22customer+raised%22" target="_blank" rel="noopener noreferrer" class="">requested</a> and <a href="https://github.com/phcode-dev/phoenix/issues?q=is%3Aissue+is%3Aopen+label%3A%22Feature+Request%22" target="_blank" rel="noopener noreferrer" class="">more</a>.</p>
+<p>However, our ambitions come with costs, and it's your support that makes all the difference.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="how-you-can-support">How You Can Support:<a href="https://docs.phcode.dev/zh-Hans/blog/welcome#how-you-can-support" class="hash-link" aria-label="Direct link to How You Can Support:" title="Direct link to How You Can Support:" translate="no">​</a></h2>
+<ul>
+<li class=""><strong>Share your feedback:</strong> <a href="https://github.com/orgs/phcode-dev/discussions" target="_blank" rel="noopener noreferrer" class="">https://github.com/orgs/phcode-dev/discussions</a></li>
+<li class=""><strong>Spread the word</strong> about Phoenix to friends and colleagues.</li>
+<li class=""><a href="https://opencollective.com/phoenix-ide" target="_blank" rel="noopener noreferrer" class=""><strong>Consider supporting us</strong> on Open Collective</a>. Every contribution helps us to keep improving and expanding Phoenix Code.</li>
+</ul>
+<p>We're grateful for the incredible support this community has shown us so far. Let's continue to make Phoenix Code even better, together.</p>
+<p>With gratitude,</p>
+<p>The Phoenix Team</p>]]></content:encoded>
+            <category>hello world</category>
+            <category>Native Apps</category>
+            <category>Windows</category>
+            <category>Linux</category>
+            <category>Mac</category>
+            <category>Release</category>
+        </item>
+    </channel>
+</rss>

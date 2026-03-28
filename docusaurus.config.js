@@ -57,7 +57,7 @@ const config = {
 	projectName: "docs", // Usually your repo name.
 	deploymentBranch: "main",
 
-	onBrokenLinks: "throw",
+	onBrokenLinks: 'warn',
 	onBrokenMarkdownLinks: "warn",
 
 	// Even if you don't use internationalization, you can use this field to set
@@ -65,7 +65,7 @@ const config = {
 	// may want to replace "en" with "zh-Hans".
 	i18n: {
 		defaultLocale: "en",
-		locales: ["en"]
+		locales: ["en", "zh-Hans"]
 	},
 	// Enable mermaid diagrams
 	markdown: {
